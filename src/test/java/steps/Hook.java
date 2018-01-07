@@ -23,7 +23,7 @@ public class Hook extends BaseUtil{
     @Before
     public void InitializeTest() {
         
-        System.setProperty("webdriver.ie.driver", "C:\\Libs\\iexploredriver.exe");
+        System.setProperty("webdriver.ie.driver", "C:\\Libs\\IEDriverServer.exe");
         driver = new InternetExplorerDriver();
         driver.manage().window().maximize();
          //base.Driver = new InternetExplorerDriver();
