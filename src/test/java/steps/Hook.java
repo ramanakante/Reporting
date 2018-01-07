@@ -24,7 +24,7 @@ public class Hook extends BaseUtil{
     public void InitializeTest() {
         
         System.setProperty("webdriver.ie.driver", "C:\\Libs\\iexploredriver.exe");
-        WebDriver driver = new InternetExplorerDriver();
+        driver = new InternetExplorerDriver();
         driver.manage().window().maximize();
          //base.Driver = new InternetExplorerDriver();
         //System.out.println("Opening the browser : Firefox");
