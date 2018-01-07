@@ -6,6 +6,7 @@ import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 /**
  * Created by Karthik on 10/17/2016.
@@ -24,11 +25,12 @@ public class Hook extends BaseUtil{
         
         System.setProperty("webdriver.ie.driver", "C:\\Libs\\iexploredriver.exe");
         WebDriver driver = new InternetExplorerDriver();
+        driver.manage().window().maximize();
          //base.Driver = new InternetExplorerDriver();
         //System.out.println("Opening the browser : Firefox");
 
        // System.setProperty("webdriver.firefox.marionette", "C:\\Libs\\geckodriver.exe");
-        base.Driver = new FirefoxDriver();
+       // base.Driver = new FirefoxDriver();
 
 
         //Chrome driver
