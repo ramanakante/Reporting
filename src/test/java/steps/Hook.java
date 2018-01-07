@@ -22,7 +22,7 @@ public class Hook extends BaseUtil{
     @Before
     public void InitializeTest() {
         
-        System.setProperty("webdriver.ie.driver", "C:/Libs/iexploredriver.exe");
+        System.setProperty("webdriver.ie.driver", "C:\\Libs\\iexploredriver.exe");
         //WebDriver driver = new InternetExplorerDriver();
          base.Driver = new InternetExplorerDriver();
         //System.out.println("Opening the browser : Firefox");
